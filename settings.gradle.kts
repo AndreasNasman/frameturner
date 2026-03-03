@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Framer"
 include(":app")
+include(":framer")
