@@ -20,6 +20,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+    defaultLibrariesExtensionName = "framerLibs"
 }
 
 rootProject.name = "Framer"

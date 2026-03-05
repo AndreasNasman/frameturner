@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.android.library)
+    alias(framerLibs.plugins.android.library)
 }
 
 android {
@@ -33,11 +33,11 @@ android {
 }
 
 dependencies {
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    implementation(libs.androidx.runtime.android)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+    implementation(framerLibs.androidx.core.ktx)
+    implementation(framerLibs.androidx.appcompat)
+    implementation(framerLibs.material)
+    implementation(framerLibs.androidx.runtime.android)
+    testImplementation(framerLibs.junit)
+    androidTestImplementation(framerLibs.androidx.junit)
+    androidTestImplementation(framerLibs.androidx.espresso.core)
 }
